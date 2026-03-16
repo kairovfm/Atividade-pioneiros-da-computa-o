@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Myfonte";
+    src: url("Raleway.zip");
+}
+body{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 0;
+    padding: 0px;
+    color: rgb(156, 156, 156) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+.tex_img_babbage{
+    display: flex;
+    gap: 10px;
+}
+.Img_maquina_analitica_Babbage{
+    height: 100%;
+    width: 100%; 
+}
+.img_maquina_diferencial{
+    height: 100%;
+    width: 100%;
+
+}
+.Imagem_de_Babbage{
+    height: 100%;
+    width: 100%;
+}
+.texto_babbage{
+    width: 100%;
+}
+.imagens_babbage{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    gap: 18px;
+    
+}
+.text_img_Ada{
+    display: flex;
+    gap: 10px;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    align-items: center;
+
+}
+.text_ada{
+    height: 140%;
+    width: 140%;
+}
+.ada_img{
+    height: 40%;
+    width: 40%;
+    margin-top: 0%;
+}
+.img_text_Alan_Turing{
+    display: flex;
+    gap: 18px;
+}
+.Imagem_Alan_Turing{
+    height: 20%;
+    width: 20%;
+    margin-top: 0px;
+
+}
+#botao{
+
+    background-color: rgb(163, 163, 163);
+    height: 80%;
+    width: 10%;
+    min-height: 40px;
+    min-width: 100px;
+    border-radius: 20px;
+    border-color: transparent;
+
+}
+.div_button{
+    height: 3vw;
+    width: 100%;
+    min-width: 100px;
+    min-height: 50px;
+}
